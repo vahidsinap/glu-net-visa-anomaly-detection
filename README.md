@@ -65,6 +65,12 @@ The experiments were conducted using the Visual Anomaly (VisA) dataset. The raw 
 The experiments were originally conducted in a Kaggle notebook environment with GPU acceleration. To install the required Python dependencies, use:
 
 
+## Archived release
+
+The peer-review version of this repository is archived on Zenodo with a version-specific DOI:
+
+https://zenodo.org/records/20155544
+
 
 ```bash
 

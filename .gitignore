@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.venv/
+.DS_Store
+
+# Large files
+*.pt
+*.pth
+*.ckpt
+*.zip
+*.tar
+*.tar.gz
+*.npz
+
+# Local data
+data/
+datasets/
+visa/
+VisA/

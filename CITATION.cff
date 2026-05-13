@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript."
+title: "GLU-Net: An Explainable Global–Local Multi-Task Framework for Industrial Visual Anomaly Detection and Coarse Localization"
+authors:
+  - family-names: "Sinap"
+    given-names: "Vahid"
+    orcid: "https://orcid.org/0000-0002-8734-9509"
+year: 2026
+journal: "The Visual Computer"
+repository-code: "https://github.com/YOUR_USERNAME/glu-net-visa-anomaly-detection"
+license: "MIT"

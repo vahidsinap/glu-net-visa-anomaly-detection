@@ -1,0 +1,8 @@
+Experiment,Architecture,Backbone,Epochs,Best epoch,Loss strategy,Accuracy,Balanced Accuracy,Precision,Recall,F1-score,ROC-AUC,PR-AUC,Anomaly-only IoU,Anomaly-only Dice,Trainable Parameters,Total Parameters,Time (min)
+glunet_resnet18_lambda05_e10,GLU-Net,resnet18,10,10,balanced_global_local_loss,0.9392,0.8503,0.7211,0.7361,0.7285,0.9409,0.7956,0.1093,0.1644,14452963,14452963,11.38
+sgglanet_convnext_lambda025_e5,SG-GLANet,convnext_tiny,5,5,multi_task_loss,0.9069,0.8716,0.5535,0.8264,0.663,0.9302,0.7324,0.0079,0.012,30173987,30173987,5.99
+baseline_convnext_tiny,Image-level baseline,convnext_tiny,5,4,weighted_cross_entropy,0.9184,0.8265,0.6145,0.7083,0.6581,0.9287,0.6873,,,27821666,27821666,5.9
+baseline_resnet18,Image-level baseline,resnet18,5,5,weighted_cross_entropy,0.9061,0.8378,0.5567,0.75,0.6391,0.923,0.7124,,,11177538,11177538,5.28
+sgglanet_v2_convnext_lambda025_e5,SG-GLANet,convnext_tiny,5,5,anomaly_focused_segmentation,0.8992,0.843,0.5311,0.7708,0.6289,0.9172,0.7015,0.0003,0.0005,30173987,30173987,5.87
+glunet_resnet18_lambda05_e5,GLU-Net,resnet18,5,5,balanced_global_local_loss,0.9038,0.8152,0.5519,0.7014,0.6177,0.9058,0.6397,0.0688,0.1079,14452963,14452963,5.72
+baseline_densenet121,Image-level baseline,densenet121,5,5,weighted_cross_entropy,0.8961,0.8048,0.5238,0.6875,0.5946,0.9064,0.6649,,,6955906,6955906,5.71

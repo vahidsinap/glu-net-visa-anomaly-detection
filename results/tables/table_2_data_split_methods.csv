@@ -1,0 +1,4 @@
+Split,Normal images,Anomalous images,Total images,Anomaly ratio (%)
+Training,4618,576,5194,11.09
+Validation,1155,144,1299,11.09
+Official test,3848,480,4328,11.09

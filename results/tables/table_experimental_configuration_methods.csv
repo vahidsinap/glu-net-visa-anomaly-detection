@@ -1,0 +1,15 @@
+Component,Setting
+Image size,224 × 224 pixels
+Baseline batch size,64
+Multi-task batch size,32
+Optimizer,AdamW
+Learning rate,3e-5
+Weight decay,1e-4
+Scheduler,Cosine annealing
+Baseline training epochs,5 epochs
+GLU-Net training epochs,10 epochs
+Model selection criterion,Best validation F1-score
+Classification loss,Weighted cross-entropy
+Segmentation loss,Weighted BCE + Dice loss
+Final test protocol,Official test set used only for final evaluation
+Hardware,"Kaggle GPU, Tesla T4"
